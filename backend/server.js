@@ -1,5 +1,6 @@
 import http from 'http';
 
+const PORT=process.env.PORT || 3000
 http.createServer(async (req,res)=>{
 
     res.setHeader('Access-Control-Allow-Origin','*');
@@ -21,5 +22,5 @@ http.createServer(async (req,res)=>{
        console.log(result);
        res.end(result);
     }
-}).listen(3000);
+}).listen(PORT);
 
