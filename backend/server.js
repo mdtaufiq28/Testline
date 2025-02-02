@@ -22,5 +22,5 @@ http.createServer(async (req,res)=>{
        console.log(result);
        res.end(result);
     }
-}).listen(port);
+}).listen(port,'0.0.0.0');
 
