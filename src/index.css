@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'raleway' ;
+  src: url('./assets/fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'helvetica';
+  src: url('./assets/fonts/HelveticaNeueBlack.otf');
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+body{
+  min-height: 100vh;
+  padding:0;
+  margin:0;
+  border:solid 2px red;
+  font-family: poppins;
+}
